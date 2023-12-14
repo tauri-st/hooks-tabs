@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <h1>SqueakyClean Laundromat </h1>
       <h2>We take the dirty work out of laundry!</h2>
-      <Tabs />
+      <Tabs services={services} />
     </div>
   );
 }
