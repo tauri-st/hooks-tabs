@@ -1,10 +1,10 @@
 import React from "react";
 
-const Tabs = ({ name, description }) => {
+const Tabs = ({ services }) => {
   return (
     <section className="tabs">
-      <div>Name: {name}</div>
-      <div>Description: {description}</div>
+      <div></div>
+      <div></div>
     </section>
   );
 };
