@@ -1,4 +1,5 @@
-import React from "react";
+//4. Import useState in
+import React, "{useState}" from "react";
 
 //3. Destructure services from the props object
 const Tabs = ({ services }) => {
