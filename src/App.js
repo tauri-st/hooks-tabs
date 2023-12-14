@@ -1,5 +1,6 @@
 import "./styles.css";
 import Tabs from "./Tabs";
+import services from "./services";
 
 export default function App() {
   return (
