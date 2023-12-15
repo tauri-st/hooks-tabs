@@ -10,10 +10,12 @@ const Tabs = ({ services }) => {
 
   return (
     <section className="tabs">
+      {/*6. Map over services array, output an h3 element
+      with index as akey and the name as the h3*/}
       <div>
-        {services.map((index, name) => (
-          <h3 className="tab-title" key={index}>{name}</h3>
-        ))};
+        {services.map((service, index) => (
+          <h3 className="tab-title" key={index}>{service.name}</h3>
+        ))}
       </div>
       <div></div>
     </section>
