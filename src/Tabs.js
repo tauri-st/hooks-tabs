@@ -7,9 +7,14 @@ const Tabs = ({ services }) => {
   keep track of which one is currently visible with initial
   state being 0 place in the array */
   const [activeTabIndex, setActiveTabIndex] = useState(0);
+
   return (
     <section className="tabs">
-      <div></div>
+      <div>
+        {services.map((index, name) => (
+          <h3 className="tab-title" key={index}>{name}</h3>
+        ))};
+      </div>
       <div></div>
     </section>
   );
