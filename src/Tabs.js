@@ -17,7 +17,11 @@ const Tabs = ({ services }) => {
           <h3 className="tab-title" key={index}>{service.name}</h3>
         ))}
       </div>
-      <div></div>
+      <div className="tab-content">
+        {/*7. Output description of the particular service
+        using the activeTabIndex */}
+          <p>{services[activeTabIndex].description}</p>
+      </div>
     </section>
   );
 };
