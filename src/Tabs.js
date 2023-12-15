@@ -12,9 +12,10 @@ const Tabs = ({ services }) => {
     <section className="tabs">
       {/*6. Map over services array, output an h3 element
       with index as akey and the name as the h3*/}
+      {/*8. Add an onClick attribute to access the index*/}
       <div>
         {services.map((service, index) => (
-          <h3 className="tab-title" key={index}>{service.name}</h3>
+          <h3 className="tab-title" key={index} onClick={() => setActiveTabIndex(index)}>{service.name}</h3>
         ))}
       </div>
       <div className="tab-content">
