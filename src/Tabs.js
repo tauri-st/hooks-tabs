@@ -12,7 +12,8 @@ const Tabs = ({ services }) => {
     <section className="tabs">
       {/*6. Map over services array, output an h3 element
       with index as akey and the name as the h3*/}
-      {/*8. Add an onClick attribute to access the index*/}
+      {/*8. Add an onClick attribute to access the index, must 
+      be done inline bc map method required to access the index*/}
       {/*9. Add a class of "active" to the h3 element if its 
       corresponding description is on the screen. */}
       <div>
